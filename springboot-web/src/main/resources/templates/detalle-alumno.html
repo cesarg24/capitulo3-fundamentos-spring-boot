@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="${titulo}"></title>
+</head>
+<body>
+    <h1 th:text="${titulo}"></h1>
+    <p>Nombre: <span th:text="${alumno.nombre}"></span></p>
+    <p>Apellido: <span th:text="${alumno.apellido}"></span></p>
+    <p>Grado: <span th:text="${alumno.curso}"></span></p>
+</body>
+</html>
